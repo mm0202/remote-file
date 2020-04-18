@@ -1,4 +1,5 @@
 {
+  "name": "@mm0202/remote-file",
   "version": "0.0.0",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -10,6 +11,20 @@
   "files": [
     "dist"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mm0202/remote-file.git"
+  },
+  "author": "mm0202",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mm0202/remote-file/issues"
+  },
+  "homepage": "https://github.com/mm0202/remote-file#readme",
+  "dependencies": {
+    "@mm0202/cache-for-page": "^0.0.5",
+    "axios": "latest"
+  },
   "devDependencies": {
     "@types/jest": "^25.2.1",
     "jest": "^25.3.0",
