@@ -1,15 +1,4 @@
-# template_npm-package
- 
-# setup
-## tune package.json
-`npm init` & paste from template
-
-## secrets for CI
-- NPM_TOKEN
-- SLACK_WEBHOOK_URL
-
-# publish
-`npm version ...` => publish by github workflow
-
-## `npm version` options
-check by `npm version -h`
+# @mm0202/remote-file
+* 外部ファイルの取得
+* ページごとのキャッシュ
+* SPAの場合はページのロードがあるまで持続。
