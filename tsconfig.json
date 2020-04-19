@@ -11,6 +11,7 @@
     "pretty": true,
     "newLine": "lf",
     "outDir": "dist",
+    "lib": ["ES2015"],
     "types": [
       "jest"
     ]
